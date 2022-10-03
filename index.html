@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fresh Start Estate Agency - Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./css/materialize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  
+  <body>
+    <!--Dropdown Menu Items-->
+    <ul id="navMenu" class="dropdown-content">
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./aboutUs.html">About Us</a></li>
+      <li><a href="./valuations.html">Valuations</a></li>
+      <li><a href="./properties.html">Properties</a></li>
+      <li><a href="./contactUs.html">ContactUs</a></li>
+    </ul>
+    <nav class="teal lighten-4">
+      <div class="nav-wrapper container">
+        <!--Dropdown-->
+        <a class="dropdown-trigger left" href="#" data-target="navMenu"><i class="material-icons white-text">menu</i></a>
+        <h6 id="companyName" class="brand-logo center"><a href="./index.html">Fresh Start Estate Agency</a></h6>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="./services.html" class="white-text"><i class="material-icons right">view_module</i>Services</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <main>
+    <br>
+    <div class="parallax-container">
+      <div class="parallax"><img src="./images/parallax1.jpg" style="transform: translate3d(-50%, 308.129px, 0px); opacity: 1;"></div>
+    </div>
+
+    <div class="container">
+      <blockquote><h4>Let us find your new home.</h4>
+      <p><h6>Find a new property today!</h6></p>
+      <p><h6>Click <a href="./properties.html">here</a> to view properties.</h6></p></blockquote>
+      <div class="rightContainer grey lighten-4">
+        <h5>Want to know what your home is worth?</h5>
+        <h6>Free <a href="./valuations.html">Valuation Service</a></h6>
+      </div>
+    </div>
+    <br/>
+
+    <!--Three Featured Properties-->
+    <div class="container center">
+      <blockquote>
+        <h4>Check out our featured properties below!</h4>
+        <h6>Click on the links beneath to view more details.</h6>
+      </blockquote>
+    <div class="row row-flex"> <!--1-->
+      <!--Card1-->
+      <div class="col s12 m4"> <!--2-->
+        <div class="card-panel hoverable"> <!--3-->
+          <div class="card-image"> <!--4-->
+            <img src="./images/prop1ext.JPG" width=100%>
+            <span class="card-title"><b>9c Eglinton Lane, Portrush</b></span>
+          </div> <!--4-->
+          <div class="card-content"><!--5-->
+            <p>A modern detactched town house, with an incredible town centre location.</p>
+            <p>With 2 bedrooms and 2 bathrooms, this is an ideal holiday home or investment property.</p>
+          </div> <!--5-->
+          <div class="card-action"> <!--6-->
+            <a href="./property1.html">View the property.</a>
+          </div><!--6-->
+        </div> <!--3-->
+      </div> <!--2-->
+
+      <!--Card2-->
+      <div class="col s12 m4"> <!--2-->
+        <div class="card-panel hoverable"> <!--3-->
+          <div class="card-image"> <!--4-->
+            <img src="./images/prop2ext1.jpg" width=100%>
+            <span class="card-title"><b>8b Leeke Road, Bushmills, Portrush, BT57 8UN</b></span>
+          </div> <!--4-->
+          <div class="card-content"><!--5-->
+            <p>A stunning detached countryside property, recently built in 2019.</p>
+            <p>With 3200 sq ft, this ideal family home has 4 bedrooms (2 en-suites), 2 bathrooms and lots of space to develop. </p>
+          </div> <!--5-->
+          <div class="card-action"> <!--6-->
+            <a href="./property2.html">View the property.</a>
+          </div><!--6-->
+        </div> <!--3-->
+      </div> <!--2-->
+
+      <!--Card3-->
+      <div class="col s12 m4"> <!--2-->
+        <div class="card-panel hoverable"> <!--3-->
+          <div class="card-image"> <!--4-->
+            <img src="./images/prop3ext.jpg" width=100%>
+            <span class="card-title"><b>48 West Strand Avenue, Portrush, BT56 8FD</b></span>
+          </div> <!--4-->
+          <div class="card-content"><!--5-->
+            <p>A stone's throw from the beach, this property has a sought-after location.</p>
+            <p>With 2 bedrooms (1 en-suite) and 1 bathroom, this apartment could be a great holiday home.</p>
+          </div> <!--5-->
+          <div class="card-action"> <!--6-->
+            <a href="./property3.html">View the property.</a>
+          </div><!--6-->
+        </div> <!--3-->
+      </div> <!--2-->
+    </div> <!--1-->
+    </div>
+
+  <br>
+  <div class="container">
+    <h4><u>Enquiry Form</u></h4>
+  </div>
+
+  <div class="container">
+    <blockquote>    
+      <h6>Do you have a query about anything? </h6>
+      <h6>Why not fill out our enquiry form below and we'll get back to you ASAP!</h6>
+    </blockquote>
+
+    <br>
+      
+    <div class="row" id="form">
+      <form class="col s12">
+        <div class="row">
+          <div class="col s1">
+            <i class="medium material-icons">account_circle</i>
+          </div>
+
+          <div class="input-field col s3">
+            <select>
+              <option value="" disabled selected>Select title</option>
+              <option value="1">Mrs</option>
+              <option value="2">Miss</option>
+              <option value="3">Ms</option>
+              <option value="4">Mr</option>
+              <option value="5">Dr</option>
+              <option value="6">Other (specify in the comment section)</option>
+            </select>
+            <label>Title</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s5 offset-s1">
+            <input placeholder="Enter first name" id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s5 offset-s1">
+            <input placeholder="Enter last name" id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>        
+      </br> 
+        <div class="row">
+          <div class="col s1">
+            <div class="col s1">
+              <i class="medium material-icons">perm_phone_msg</i>
+            </div>
+          </div>
+          <div class="input-field col s11">
+            <input placeholder="Enter email address" id="email" type="text" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s11 offset-s1">
+            <input placeholder="Enter phone number" id="phoneNumber" type="text" class="validate">
+            <label for="phoneNumber">Phone number</label>
+          </div>
+        </div>
+      <br> 
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="col s1">
+                <i class="medium material-icons">mode_edit</i>
+              </div>
+              <div class="input-field col s3">
+                <select>
+                  <option value="" disabled selected>Select your contact reason</option>
+                  <option value="1">Property query</option>
+                  <option value="2">Valuation query</option>
+                  <option value="3">Custom property search</option>
+                  <option value="4">Contact one of our estate agents</option>
+                </select>
+                <label>Contact Reason</label>
+              </div>
+
+            <div class="input-field col s8">
+              <textarea id="commentArea" class="materialize-textarea"></textarea>
+                <label for="commentArea">Comments</label>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col s1">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </div>
+      </form>
+      </div>
+      </form>
+    </div>
+  </div>
+  </main>
+
+  <footer class="page-footer teal lighten-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Information</h5>
+          <ul>
+            <li><i class="tiny material-icons">phone</i> 02870822310</li>
+            <li><i class="tiny material-icons">email</i> estates@freshstart.com</li>
+            <li><i class="tiny material-icons">location_on</i> 95 Eglinton Street, Portrush, Co. Antrim, BT56 8DZ</li>
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="./services.html">Services</a></li>
+            <li><a class="grey-text text-lighten-3" href="./aboutUs.html">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="./valuations.html">Valuations</a></li>
+            <li><a class="grey-text text-lighten-3" href="./properties.html">Properties</a></li>
+            <li><a class="grey-text text-lighten-3" href="./contactUs.html">ContactUs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright teal lighten-2">
+      <div class="container">
+        &copy; 2021 Fresh Start Estate Agency
+      </div>
+    </div>
+  </footer>
+  
+
+  <!--Identifying the source for the scripts included-->
+  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/materialize.js"></script>
+</body>
+</html>
