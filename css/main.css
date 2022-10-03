@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+    
+  .rightContainer{
+    text-align: right;
+  }
+
+  .companyName {
+    color: #1f628e;
+  }
+
+  .parallax-container {
+    height: 300px;
+  }/*Setting the height of any parallaxes*/
+
+  blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #00695c !important;
+  }/*Setting the colour and spacings for any blockquote tabs*/
+
+  .row-flex {
+    display: flex!important;
+  }
+  .row-flex .col {
+    min-height: 100% !important;
+  }
+
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+  }/*Custom properties for the property carousels*/
+
+  .tabs .tab a:hover {
+    background-color:#b2dfdb;
+    color:#000000
+  } /*Tab colour on hover*/
+
+  .tabs .indicator {
+    background-color:#00897b;
+  } /*Color of tab underline*/
+
+
